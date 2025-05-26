@@ -1,14 +1,8 @@
 <div align="center">
   <a href="https://github.com/Athar5443/Youtube_BlockAds_List/">
-    <img src="https://img.shields.io/github/stars/your-username/yt-ads-blocklist?style=flat-square&logo=github" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/Athar5443/Youtube_BlockAds_List?style=flat-square&logo=github" alt="Stars" />
   </a>
-  <a href="https://github.com/Athar5443/Youtube_BlockAds_List/actions/workflows/publish.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/Athar5443/Youtube_BlockAds_List/ci.yml?style=flat-square&logo=github" alt="CI" />
-  </a>
-  <a href="https://github.com/Athar5443/Youtube_BlockAds_List/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/your-username/yt-ads-blocklist?style=flat-square&logo=open-source-initiative" alt="License" />
-  </a>
-  <a href="https://github.com/sponsors/your-username">
+  <a href="https://donate.athars.cloud/">
     <img src="https://img.shields.io/badge/Sponsor-&hearts;-pink?style=flat-square" alt="Sponsor" />
   </a>
 </div>
@@ -47,10 +41,8 @@ Integrate in **seconds** with Pi-hole, DNSMASQ, Unbound, AdBlockPlus, uBlock Ori
 ## ⚡ Quick Start
 
 ```bash
-# 1. Clone & Install
-git clone https://github.com/your-username/yt-ads-blocklist.git
-cd yt-ads-blocklist
-npm ci
-
-# 2. Build & Deploy
-npm run build      # generate all formats
+# 1. Clone & Run
+git clone https://github.com/Athar5443/Youtube_BlockAds_List.git
+cd Youtube_BlockAds_List
+python3 generator.py
+```
